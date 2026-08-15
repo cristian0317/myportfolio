@@ -1,20 +1,57 @@
-<<<<<<< HEAD
-# React + Vite
+# Portafolio Profesional - Cristian Ortiz Rendon 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio web personal desarrollado con **React 19**, **Vite**, **Tailwind CSS v4** y **Framer Motion**. Este sitio web presenta mis proyectos, habilidades técnicas y experiencia como estudiante de Desarrollo de Software en la Universidad Tecnológica de Jalisco (UTJ).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías Utilizadas
 
-## React Compiler
+- **Frontend Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Estilos**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animaciones**: [Framer Motion](https://www.framer.com/motion/)
+- **Iconos**: [Lucide React](https://lucide.dev/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚡ Características
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# myportfolio
->>>>>>> e816e276f19472ca782b46754259151270203d74
+- 📱 **Diseño Responsive**: Adaptado para dispositivos móviles, tablets y escritorio.
+- 🎨 **Estética Moderna**: Paleta de colores dark mode personalizada con degradados y efectos de brillo.
+- 🌐 **Soporte Multilingüe (ES / EN)**: Alterna fácilmente entre Español e Inglés.
+- 📂 **Sección de Proyectos**: Muestra proyectos destacados con enlaces a repositorio y demostración.
+- 📄 **Descarga de CV**: Enlace directo para visualizar y descargar el currículum vitae.
+- ✉️ **Formulario de Contacto Interactivo**: Confirmación visual al enviar mensajes.
+
+---
+
+## 🚀 Instalación y Uso Local
+
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/CristianOrtizRendon/myportfolio.git
+   cd myportfolio
+   ```
+
+2. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar el servidor de desarrollo**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Construir para producción**:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📬 Contacto
+
+- **Email**: [cristianortizrendon12@gmail.com](mailto:cristianortizrendon12@gmail.com)
+- **LinkedIn**: [cristian-ortiz-rendon](https://linkedin.com/in/cristian-ortiz-rendon)
+- **GitHub**: [CristianOrtizRendon](https://github.com/CristianOrtizRendon)
