@@ -29,7 +29,7 @@ Bienvenido a mi portafolio web personal desarrollado con **React 19**, **Vite**,
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/CristianOrtizRendon/myportfolio.git
+   git clone https://github.com/cristian0317/myportfolio.git
    cd myportfolio
    ```
 
@@ -53,5 +53,5 @@ Bienvenido a mi portafolio web personal desarrollado con **React 19**, **Vite**,
 ## 📬 Contacto
 
 - **Email**: [cristianortizrendon12@gmail.com](mailto:cristianortizrendon12@gmail.com)
-- **LinkedIn**: [cristian-ortiz-rendon](https://linkedin.com/in/cristian-ortiz-rendon)
-- **GitHub**: [CristianOrtizRendon](https://github.com/CristianOrtizRendon)
+- **LinkedIn**: [Cristian Ortiz Rendon](https://www.linkedin.com/in/cristian-ortiz-rendon-817325348/)
+- **GitHub**: [cristian0317](https://github.com/cristian0317)

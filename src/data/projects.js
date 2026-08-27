@@ -13,7 +13,7 @@ export const projects = [
       es: "Esparking resuelve la problemática de administración de espacios en estacionamientos concurridos. Incluye control de ocupación en tiempo real, registro de tarifas por tiempo, alertas de capacidad máxima y reportes administrativos.",
       en: "Esparking solves the challenge of space administration in busy parking facilities. It includes real-time occupancy tracking, time-based billing rates, capacity alerts, and administrative reporting."
     },
-    github: "https://github.com/CristianOrtizRendon",
+    github: "https://github.com/cristian0317",
     demo: "#",
     tags: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     highlights: {
@@ -35,7 +35,7 @@ export const projects = [
       es: "Plataforma completa para el seguimiento de productos e inventarios. Ofrece filtrado avanzado por categorías, alertas de stock bajo, módulo de proveedores e historial de entradas/salidas de mercancía.",
       en: "Comprehensive platform for product and stock tracking. Features advanced category filtering, low stock alerts, supplier management module, and item movement history logs."
     },
-    github: "https://github.com/CristianOrtizRendon",
+    github: "https://github.com/cristian0317",
     demo: "#",
     tags: ["React", "Express", "Node.js", "MongoDB"],
     highlights: {
@@ -57,7 +57,7 @@ export const projects = [
       es: "Conjunto de plantillas y páginas de aterrizaje optimizadas para la conversión, con animaciones fluidas, excelente rendimiento SEO y maquetación responsive limpia.",
       en: "Suite of conversion-optimized landing pages and templates featuring smooth animations, excellent SEO scores, and clean responsive layouts."
     },
-    github: "https://github.com/CristianOrtizRendon",
+    github: "https://github.com/cristian0317",
     demo: "#",
     tags: ["HTML5", "CSS3", "JavaScript", "React", "Framer Motion"],
     highlights: {

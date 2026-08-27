@@ -12,13 +12,13 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/CristianOrtizRendon",
+      url: "https://github.com/cristian0317",
       color: "hover:bg-[#2b3137] hover:border-gray-500"
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/cristian-ortiz-rendon",
+      url: "https://www.linkedin.com/in/cristian-ortiz-rendon-817325348/",
       color: "hover:bg-[#0077b5] hover:border-blue-400"
     },
     {
@@ -34,7 +34,7 @@ const Contact = () => {
     if (status.error) setStatus({ ...status, error: '' });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.name.trim()) {
       setStatus({ loading: false, success: false, error: t.contact.nameRequired });
@@ -47,15 +47,35 @@ const Contact = () => {
 
     setStatus({ loading: true, success: false, error: '' });
 
-    // Simulate contact form dispatch
-    setTimeout(() => {
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/cristianortizrendon12@gmail.com', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          Nombre: formData.name,
+          Email: formData.email,
+          Mensaje: formData.message,
+          _subject: `Nuevo mensaje en portafolio de ${formData.name}`
+        })
+      });
+
+      if (response.ok) {
+        setStatus({ loading: false, success: true, error: '' });
+        setFormData({ name: '', email: '', message: '' });
+        setTimeout(() => {
+          setStatus({ loading: false, success: false, error: '' });
+        }, 6000);
+      } else {
+        setStatus({ loading: false, success: false, error: 'Ocurrió un problema al enviar el mensaje.' });
+      }
+    } catch (err) {
+      window.location.href = `mailto:cristianortizrendon12@gmail.com?subject=Mensaje de ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(formData.message)}`;
       setStatus({ loading: false, success: true, error: '' });
       setFormData({ name: '', email: '', message: '' });
-      
-      setTimeout(() => {
-        setStatus({ loading: false, success: false, error: '' });
-      }, 6000);
-    }, 1000);
+    }
   };
 
   return (

@@ -21,10 +21,10 @@ const Footer = () => {
           
           <div className="flex flex-col items-center md:items-end gap-3">
             <div className="flex space-x-5">
-              <a href="https://github.com/CristianOrtizRendon" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/cristian0317" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={18} />
               </a>
-              <a href="https://linkedin.com/in/cristian-ortiz-rendon" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/cristian-ortiz-rendon-817325348/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Linkedin size={18} />
               </a>
               <a href="mailto:cristianortizrendon12@gmail.com" className="text-gray-400 hover:text-emerald-400 transition-colors">

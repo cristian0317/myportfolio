@@ -111,7 +111,7 @@ const Hero = () => {
             className="flex items-center gap-6 mt-12 text-gray-400"
           >
             <a 
-              href="https://github.com/CristianOrtizRendon" 
+              href="https://github.com/cristian0317" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-white hover:scale-110 transition-all"
@@ -120,7 +120,7 @@ const Hero = () => {
               <Github size={22} />
             </a>
             <a 
-              href="https://linkedin.com/in/cristian-ortiz-rendon" 
+              href="https://www.linkedin.com/in/cristian-ortiz-rendon-817325348/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-blue-400 hover:scale-110 transition-all"
